@@ -1,16 +1,12 @@
-import './App.css'
-import MainDash from './components/MainDash/MainDash';
-import RightSide from './components/RigtSide/RightSide';
-import Sidebar from './components/Sidebar';
+import React from 'react';
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="AppGlass">
-        <Sidebar/>
-        <MainDash/>
-        <RightSide/>
-      </div>
+    <div>
+      <h1>Dashboard</h1>
+      <p>Welcome to my React dashboard!</p>
+      {/* Add your components here */}
     </div>
   );
 }
